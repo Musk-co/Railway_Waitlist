@@ -898,55 +898,7 @@ Stop-Process -Name java -Force
 
 ---
 
-## File Statistics
 
-| Metric | Count |
-|--------|-------|
-| Java Source Files | 11 |
-| JSP Pages | 7 |
-| DAO Classes | 3 |
-| Servlet Classes | 5 |
-| Utility Classes | 3 |
-| Database Tables | 4 |
-| Total Java Lines | 2,000+ |
-| Total JSP Lines | 2,500+ |
-| Compilation Status | ✅ No Errors |
-| Deployment Status | ✅ Production Ready |
 
----
 
-## Quick Start Summary
 
-```
-1. Install Java 21, MySQL 8.0, Tomcat 9.0.111
-2. Create database: mysql -u root -p2507 < .\database\railway.sql
-3. Compile: javac -d .\build\classes -cp ".\lib\*;.\build\classes" ...
-4. Deploy: Copy WAR to Tomcat/webapps/
-5. Start: MySQL + Tomcat
-6. Access: http://localhost:8080/railway/
-7. Login: admin/admin123 or testuser/test123
-8. Test: Register → Calculate → View stats
-```
-
----
-
-## Support & Documentation
-
-- **Tomcat**: https://tomcat.apache.org/
-- **MySQL**: https://dev.mysql.com/doc/
-- **Java**: https://docs.oracle.com/javase/21/
-- **JSP**: https://projects.eclipse.org/projects/ee4j.jsp
-- **JDBC**: https://docs.oracle.com/javase/tutorial/jdbc/
-
----
-
-## License
-
-Educational Project - 3rd Semester Level
-
----
-
-**Project Status**: ✅ Complete and Production Ready  
-**Last Updated**: November 25, 2025  
-**Difficulty Level**: 3rd Semester / Intermediate  
-**Current Deployment**: `/railway` context on `http://localhost:8080/`
